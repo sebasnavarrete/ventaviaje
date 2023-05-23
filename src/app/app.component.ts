@@ -71,8 +71,8 @@ export class AppComponent {
       price: 3000000,
       images: ["ps5.jpeg"]
     },{
-      title: "iPAD 6",
-      subtitle: `(Excelente estado, sin caja) con lector de disco + 2 controles + Audífonos gamer inalámbricos HyperX Cloud Flight`,
+      title: "iPAD 6ta generación",
+      subtitle: `32GB de disco`,
       price: 1000000,
       images: ["ipad.jpeg", "ipad2.jpeg"]
     }
