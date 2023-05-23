@@ -14,67 +14,80 @@ export class AppComponent {
       title: "Espejo (Vidrio gris)",
       subtitle: `Dimensiones: 1m alto x 2m ancho x 20cm fondo`,
       price: 1800000,
-      images: ["esp1.jpeg", "espj2.jpeg"]
+      images: ["esp1.jpeg", "espj2.jpeg"],
+      sold: false
     }, {
       title: "Chocolatera",
       subtitle: ``,
       price: 100000,
-      images: ["chocolatera.jpeg"]
+      images: ["chocolatera.jpeg"],
+      sold: true
     }, {
       title: "Exprimidor de naranjas",
       subtitle: `Marca: Universal`,
       price: 50000,
-      images: ["exprimidor.jpeg"]
+      images: ["exprimidor.jpeg"],
+      sold: false
     }, {
       title: "Freidora",
       subtitle: `Marca: IMUSA`,
       price: 150000,
-      images: ["freidora.jpeg"]
+      images: ["freidora.jpeg"],
+      sold: false
     }, {
       title: "Horno freidor",
       subtitle: `Marca: Black and Decker`,
       price: 300000,
-      images: ["horno_f.jpeg"]
+      images: ["horno_f.jpeg"],
+      sold: false
     }, {
       title: "Licuadora",
       subtitle: `Marca: Oster`,
       price: 250000,
-      images: ["licuadora.jpeg"]
+      images: ["licuadora.jpeg"],
+      sold: false
     }, {
       title: "Sanduchera",
       subtitle: `Marca: Oster`,
       price: 100000,
-      images: ["sanduchera.jpeg"]
+      images: ["sanduchera.jpeg"],
+      sold: false
     }, {
       title: "Tetera",
       subtitle: `Marca: Universal`,
       price: 70000,
-      images: ["tetera.jpeg"]
+      images: ["tetera.jpeg"],
+      sold: false
     }, {
       title: "Tostadora",
       subtitle: `Marca: Oster`,
       price: 200000,
-      images: ["tostadora.jpeg"]
+      images: ["tostadora.jpeg"],
+      sold: false
     },{
       title: "Bicicleta SCOTT Talla L",
       subtitle: `SCOTT ASPECT 940/2021 9 VEL - Negro Mate`,
       price: 2000000,
-      images: ["bici11.jpeg", "bici12.jpeg"]
+      images: ["bici11.jpeg", "bici12.jpeg"],
+      sold: false
     },{
       title: "Bicicleta OPTIMUS Talla S",
       subtitle: `OPTIMUS AQUILA 29 8 VEL - Negro/Azul/Naranja`,
       price: 800000,
-      images: ["bici21.jpeg", "bici22.jpeg"]
+      images: ["bici21.jpeg", "bici22.jpeg"],
+      sold: false
     },{
       title: "PlayStation 5 825GB",
       subtitle: `(Excelente estado, sin caja) con lector de disco + 2 controles + Audífonos gamer inalámbricos HyperX Cloud Flight`,
       price: 3000000,
-      images: ["ps5.jpeg"]
+      images: ["ps5.jpeg"],
+      sold: false
     },{
       title: "iPAD 6ta generación",
       subtitle: `32GB de disco`,
       price: 1000000,
-      images: ["ipad.jpeg", "ipad2.jpeg"]
+      images: ["ipad.jpeg", "ipad2.jpeg"],
+      sold: false
     }
   ];
 }
