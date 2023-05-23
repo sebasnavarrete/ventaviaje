@@ -22,7 +22,7 @@
           <div class="carousel-inner">
             <div class="carousel-item {{index === 0 ? 'active':''}}"
                  *ngFor="let img of product.images; let index = index;">
-                <img (click)="image = img" data-bs-toggle="modal" data-bs-target="#imageModal" src="../assets/img/{{img}}" class="card-img-top product-img" alt="{{product.title}}">
+                <img (click)="image = img" data-bs-toggle="modal" data-bs-target="#imageModal" src="./assets/img/{{img}}" class="card-img-top product-img" alt="{{product.title}}">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -36,7 +36,7 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-          <img (click)="image = product.images[0]" data-bs-toggle="modal" data-bs-target="#imageModal" *ngIf="product.images.length === 1" src="../assets/img/{{product.images[0]}}" class="card-img-top product-img" alt="{{product.title}}">
+          <img (click)="image = product.images[0]" data-bs-toggle="modal" data-bs-target="#imageModal" *ngIf="product.images.length === 1" src="./assets/img/{{product.images[0]}}" class="card-img-top product-img" alt="{{product.title}}">
         <div class="card-body">
           <h4 class="card-title text-info">{{product.title}}</h4>
           <div class="card-text mb-3">
@@ -63,7 +63,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
-        <img class="w-100" src="../assets/img/{{image}}">
+        <img class="w-100" src="./assets/img/{{image}}">
       </div>
     </div>
   </div>
