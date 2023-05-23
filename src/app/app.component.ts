@@ -12,7 +12,7 @@ export class AppComponent {
   products = [
     {
       title: "Espejo (Vidrio gris)",
-      subtitle: `Dimensiones: 1m alto x 2m ancho x 20cm fondo`,
+      subtitle: `Dimensiones: 1.80m alto x 80cm ancho x 20cm fondo`,
       price: 1800000,
       images: ["esp1.jpeg", "espj2.jpeg"],
       sold: false
@@ -22,12 +22,6 @@ export class AppComponent {
       price: 100000,
       images: ["chocolatera.jpeg"],
       sold: true
-    }, {
-      title: "Exprimidor de naranjas",
-      subtitle: `Marca: Universal`,
-      price: 50000,
-      images: ["exprimidor.jpeg"],
-      sold: false
     }, {
       title: "Freidora",
       subtitle: `Marca: IMUSA`,
@@ -40,6 +34,12 @@ export class AppComponent {
       price: 300000,
       images: ["horno_f.jpeg"],
       sold: false
+    },{
+      title: "Espejo con luces",
+      subtitle: `Dimensiones: 1m alto x 50cm ancho x 15cm fondo`,
+      price: 800000,
+      images: ["espluces.jpeg"],
+      sold: true
     }, {
       title: "Licuadora",
       subtitle: `Marca: Oster`,
@@ -64,6 +64,12 @@ export class AppComponent {
       price: 200000,
       images: ["tostadora.jpeg"],
       sold: false
+    }, {
+      title: "Exprimidor de naranjas",
+      subtitle: `Marca: Universal`,
+      price: 50000,
+      images: ["exprimidor.jpeg"],
+      sold: true
     },{
       title: "Bicicleta SCOTT Talla L",
       subtitle: `SCOTT ASPECT 940/2021 9 VEL - Negro Mate`,
@@ -141,6 +147,24 @@ export class AppComponent {
       subtitle: `Excelente estado`,
       price: 1400000,
       images: ["pantallalg.jpeg","pantallalg2.png"],
+      sold: false
+    },{
+      title: "Bascula inteligente",
+      subtitle: `Renpho`,
+      price: 180000,
+      images: ["bascula.jpeg"],
+      sold: false
+    },{
+      title: "TV LG 55 pulgadas",
+      subtitle: ``,
+      price: 1500000,
+      images: ["tv.jpeg"],
+      sold: true
+    },{
+      title: "KIT de gimnasio",
+      subtitle: `1 Mancuerna Hexagonal 7,5kg - 2 Mancuernas Hexagonal 10kg - 2 Kettlebell 8kg y 12kg - 2 Balones de caucho 7kg y 10kg - 1 Wallball 6kg`,
+      price: 950000,
+      images: ["pesas.jpeg"],
       sold: false
     }
   ];
