@@ -1,6 +1,6 @@
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-  <span class="ms-2">Bienvenido/a al catálogo de ventas por motivo de viaje</span>
+  <span class="pe-2">Bienvenido/a al catálogo de ventas por motivo de viaje - La lista se estará actualizando, si tiene dudas no dude en contactarnos</span>
   <div class="spacer"></div>
   <a target="_blank" rel="noopener" href="https://wa.me/573017583306?text=Hola" title="Contactar"
      class="btn btn-success text-white me-2">
@@ -15,9 +15,9 @@
 
 <div class="container text-center pt-3" role="main">
   <div class="row">
-    <div class="col-md-5 col-lg-4 col-xl-3 mb-3" *ngFor="let product of products">
+    <div class="col-md-5 col-lg-4 col-xl-3 mb-3" *ngFor="let product of products; let ind = index">
       <div class="card">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+        <div id="productCarousel{{ind}}" class="carousel slide" data-bs-ride="carousel"
              *ngIf="product.images.length > 1">
           <div class="carousel-inner">
             <div class="carousel-item {{index === 0 ? 'active':''}}"
@@ -25,12 +25,12 @@
                 <img (click)="image = img" data-bs-toggle="modal" data-bs-target="#imageModal" src="./assets/img/{{img}}" class="card-img-top product-img" alt="{{product.title}}">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#productCarousel'+ind"
                   data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#productCarousel'+ind"
                   data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>

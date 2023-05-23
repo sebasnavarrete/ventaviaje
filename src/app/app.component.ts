@@ -55,6 +55,26 @@ export class AppComponent {
       subtitle: `Marca: Oster`,
       price: 200000,
       images: ["tostadora.jpeg"]
+    },{
+      title: "Bicicleta SCOTT Talla L",
+      subtitle: `SCOTT ASPECT 940/2021 9 VEL - Negro Mate`,
+      price: 2000000,
+      images: ["bici11.jpeg", "bici12.jpeg"]
+    },{
+      title: "Bicicleta OPTIMUS Talla S",
+      subtitle: `OPTIMUS AQUILA 29 8 VEL - Negro/Azul/Naranja`,
+      price: 800000,
+      images: ["bici21.jpeg", "bici22.jpeg"]
+    },{
+      title: "PlayStation 5 825GB",
+      subtitle: `(Excelente estado, sin caja) con lector de disco + 2 controles + Audífonos gamer inalámbricos HyperX Cloud Flight`,
+      price: 3000000,
+      images: ["ps5.jpeg"]
+    },{
+      title: "iPAD 6",
+      subtitle: `(Excelente estado, sin caja) con lector de disco + 2 controles + Audífonos gamer inalámbricos HyperX Cloud Flight`,
+      price: 1000000,
+      images: ["ipad.jpeg", "ipad2.jpeg"]
     }
   ];
 }
