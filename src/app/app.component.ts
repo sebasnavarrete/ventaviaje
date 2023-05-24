@@ -149,11 +149,11 @@ export class AppComponent {
       images: ["pantallalg.jpeg","pantallalg2.png"],
       sold: false
     },{
-      title: "Bascula inteligente",
+      title: "Báscula inteligente",
       subtitle: `Renpho`,
-      price: 180000,
+      price: 150000,
       images: ["bascula.jpeg"],
-      sold: false
+      sold: true
     },{
       title: "TV LG 55 pulgadas",
       subtitle: ``,
