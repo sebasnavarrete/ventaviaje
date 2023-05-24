@@ -27,7 +27,7 @@ export class AppComponent {
       subtitle: `Marca: IMUSA`,
       price: 150000,
       images: ["freidora.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Horno freidor",
       subtitle: `Marca: Black and Decker`,
@@ -45,7 +45,7 @@ export class AppComponent {
       subtitle: `Marca: Oster`,
       price: 250000,
       images: ["licuadora.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Sanduchera",
       subtitle: `Marca: Oster`,
