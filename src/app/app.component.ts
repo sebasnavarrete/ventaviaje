@@ -34,7 +34,7 @@ export class AppComponent {
       price: 300000,
       images: ["horno_f.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Espejo con luces",
       subtitle: `Dimensiones: 1m alto x 50cm ancho x 15cm fondo`,
       price: 800000,
@@ -70,101 +70,113 @@ export class AppComponent {
       price: 50000,
       images: ["exprimidor.jpeg"],
       sold: true
-    },{
+    }, {
       title: "Bicicleta SCOTT Talla L",
       subtitle: `SCOTT ASPECT 940/2021 9 VEL - Negro Mate`,
       price: 2000000,
       images: ["bici11.jpeg", "bici12.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Bicicleta OPTIMUS Talla S",
       subtitle: `OPTIMUS AQUILA 29 8 VEL - Negro/Azul/Naranja`,
       price: 800000,
       images: ["bici21.jpeg", "bici22.jpeg"],
       sold: false
-    },{
+    }, {
       title: "PlayStation 5 825GB",
       subtitle: `(Excelente estado, sin caja) con lector de disco + 2 controles + Audífonos gamer inalámbricos HyperX Cloud Flight`,
       price: 3000000,
       images: ["ps5.jpeg"],
       sold: false
-    },{
+    }, {
       title: "iPAD 6ta generación",
       subtitle: `32GB de disco`,
       price: 1000000,
       images: ["ipad.jpeg", "ipad2.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Filtro Renaware Aqua Nano CTU-500 HD",
       subtitle: `Excelente estado`,
       price: 2700000,
       images: ["filtro.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Impresora EPSON",
       subtitle: `M3170`,
       price: 1500000,
       images: ["impresora.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Lavadora/Secadora LG",
       subtitle: `22/13kg`,
       price: 4000000,
       images: ["lavadora.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Pantalla Samsung",
       subtitle: `27"`,
       price: 500000,
       images: ["pantallas.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Puff redondo",
       subtitle: `Diametro: `,
       price: 900000,
       images: ["puffred.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Silla gamer blanca",
       subtitle: `Con masajeador de espalda y luces led`,
       price: 450000,
       images: ["sillab.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Calentador Kalley",
       subtitle: `K-CAT`,
       price: 150000,
       images: ["calentador.jpeg"],
       sold: false
-    },{
+    }, {
       title: "VideoBeam EPSON Powerlite L200SW",
       subtitle: `Excelente estado - Sin caja`,
       price: 6500000,
       images: ["videob.jpeg"],
       sold: false
-    },{
+    }, {
       title: "Monitor Gamer LG 27gl850-b 27 Nanoips",
       subtitle: `Excelente estado`,
       price: 1400000,
-      images: ["pantallalg.jpeg","pantallalg2.png"],
+      images: ["pantallalg.jpeg", "pantallalg2.png"],
       sold: false
-    },{
+    }, {
       title: "Báscula inteligente",
       subtitle: `Renpho`,
       price: 150000,
       images: ["bascula.jpeg"],
       sold: true
-    },{
+    }, {
       title: "TV LG 55 pulgadas",
       subtitle: ``,
       price: 1500000,
       images: ["tv.jpeg"],
       sold: true
-    },{
+    }, {
       title: "KIT de gimnasio",
       subtitle: `1 Mancuerna Hexagonal 7,5kg - 2 Mancuernas Hexagonal 10kg - 2 Kettlebell 8kg y 12kg - 2 Balones de caucho 7kg y 10kg - 1 Wallball 6kg`,
       price: 950000,
       images: ["pesas.jpeg"],
+      sold: false
+    }, {
+      title: "Escritorio en madera",
+      subtitle: `Dimensiones: 2m ancho x 1.70m largo x 78cm alto - Diseño único y cajones con cierre lento`,
+      price: 3500000,
+      images: ["desk.jpeg", "desk2.jpeg", "desk3.jpeg", "desk4.jpeg", "desk5.jpeg", "desk6.jpeg", "desk7.jpeg"],
+      sold: false
+    }, {
+      title: "Nevera",
+      subtitle: `Marca: Samsung - Capacidad: 161 litros`,
+      price: 1800000,
+      images: ["nevera.jpeg"],
       sold: false
     }
   ];
