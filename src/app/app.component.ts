@@ -132,7 +132,7 @@ export class AppComponent {
       sold: false
     }, {
       title: "Calentador Kalley K-CAT",
-      subtitle: `Disponibilidad 1/2`,
+      subtitle: `Disponibilidad 1 de 2`,
       price: 150000,
       images: ["calentador.jpeg"],
       sold: false
