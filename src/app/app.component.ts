@@ -174,7 +174,7 @@ export class AppComponent {
       sold: false
     }, {
       title: "Nevera",
-      subtitle: `Marca: Samsung - Capacidad: 161 litros`,
+      subtitle: `Marca: Samsung - Capacidad: 361 litros`,
       price: 1800000,
       images: ["nevera.jpeg"],
       sold: false
