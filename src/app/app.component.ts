@@ -8,8 +8,8 @@ import {Component} from '@angular/core';
 })
 
 export class AppComponent {
-  image = "";
-  products = [
+  image: string = "";
+  products   = [
     {
       title: "Espejo (Vidrio gris)",
       subtitle: `Dimensiones: 1.80m alto x 80cm ancho x 20cm fondo`,
@@ -31,7 +31,7 @@ export class AppComponent {
     }, {
       title: "Horno freidor",
       subtitle: `Marca: Black and Decker`,
-      price: 300000,
+      price: 200000,
       images: ["horno_f.jpeg"],
       sold: false
     }, {
@@ -131,8 +131,8 @@ export class AppComponent {
       images: ["sillab.jpeg"],
       sold: false
     }, {
-      title: "Calentador Kalley",
-      subtitle: `K-CAT`,
+      title: "Calentador Kalley K-CAT",
+      subtitle: `Disponibilidad 1/2`,
       price: 150000,
       images: ["calentador.jpeg"],
       sold: false
