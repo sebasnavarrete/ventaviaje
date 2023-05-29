@@ -129,7 +129,7 @@ export class AppComponent {
       subtitle: `Con masajeador de espalda y luces led`,
       price: 450000,
       images: ["sillab.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Calentador Kalley K-CAT",
       subtitle: `Disponibilidad 1 de 2`,
@@ -177,6 +177,84 @@ export class AppComponent {
       subtitle: `Marca: Samsung - Capacidad: 361 litros`,
       price: 1800000,
       images: ["nevera.jpeg"],
+      sold: false
+    }, {
+      title: "Decoración centro de mesa",
+      subtitle: ``,
+      price: 50000,
+      images: ["bolasdecor.jpeg"],
+      sold: false
+    }, {
+      title: "Copas vidrio",
+      subtitle: `Tamaño medio`,
+      price: 10000,
+      images: ["copamedia.jpeg"],
+      sold: false
+    }, {
+      title: "Copas vidrio",
+      subtitle: `Tamaño corto`,
+      price: 10000,
+      images: ["copasbajas.jpeg"],
+      sold: false
+    }, {
+      title: "Copas vidrio",
+      subtitle: `Tamaño largo`,
+      price: 10000,
+      images: ["copaslargas.jpeg"],
+      sold: false
+    }, {
+      title: "Espátula",
+      subtitle: `Renaware`,
+      price: 80000,
+      images: ["espatula.jpeg"],
+      sold: false
+    }, {
+      title: "Exprimidor gris",
+      subtitle: ``,
+      price: 10000,
+      images: ["exprimidorgris.jpeg"],
+      sold: false
+    }, {
+      title: "Exprimidor Tupperware",
+      subtitle: ``,
+      price: 60000,
+      images: ["exprimidortu.jpeg"],
+      sold: false
+    }, {
+      title: "Picatodo y batidor",
+      subtitle: `Marca Oster`,
+      price: 70000,
+      images: ["picatodo.jpeg"],
+      sold: false
+    }, {
+      title: "Portacubiertos",
+      subtitle: `Plástico con tapa y espacio adicionales`,
+      price: 40000,
+      images: ["portacub.jpeg","portacub2.jpeg"],
+      sold: false
+    }, {
+      title: "Reloj de pared",
+      subtitle: ``,
+      price: 20000,
+      images: ["reloj.jpeg"],
+      sold: false
+    }, {
+      title: "Servilletero de acero",
+      subtitle: ``,
+      price: 15000,
+      images: ["servacero.jpeg"],
+      sold: false
+    }, {
+      title: "Servilletero marmol",
+      subtitle: ``,
+      price: 40000,
+      images: ["servblanco.jpeg"],
+      sold: false
+    }, {
+      title: "Sopladora",
+      subtitle: `Marca Ferton`,
+      price: 40000,
+      images: ["sopladora1.jpeg","sopladora2.jpeg"],
       sold: false
     }
   ];
