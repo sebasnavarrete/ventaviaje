@@ -255,7 +255,7 @@ export class AppComponent {
       subtitle: `Marca Ferton`,
       price: 40000,
       images: ["sopladora1.jpeg","sopladora2.jpeg"],
-      sold: false
+      sold: true
     }
   ];
 }
