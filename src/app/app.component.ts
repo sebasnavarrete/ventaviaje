@@ -84,7 +84,7 @@ export class AppComponent {
       sold: false
     }, {
       title: "PlayStation 5 825GB",
-      subtitle: `(Excelente estado, sin caja) con lector de disco + 2 controles + Audífonos gamer inalámbricos HyperX Cloud Flight`,
+      subtitle: `(Excelente estado, sin caja) con lector de disco + 2 controles + Estación de carga original + Audífonos HyperX Cloud Flight`,
       price: 3000000,
       images: ["ps5.jpeg"],
       sold: false
@@ -93,7 +93,7 @@ export class AppComponent {
       subtitle: `32GB de disco`,
       price: 1000000,
       images: ["ipad.jpeg", "ipad2.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Filtro Renaware Aqua Nano CTU-500 HD",
       subtitle: `Excelente estado`,
@@ -189,19 +189,19 @@ export class AppComponent {
       subtitle: `Tamaño medio`,
       price: 10000,
       images: ["copamedia.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Copas vidrio",
       subtitle: `Tamaño corto`,
       price: 10000,
       images: ["copasbajas.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Copas vidrio",
       subtitle: `Tamaño largo`,
       price: 10000,
       images: ["copaslargas.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Espátula",
       subtitle: `Renaware`,
