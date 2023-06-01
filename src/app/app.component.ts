@@ -213,7 +213,7 @@ export class AppComponent {
       subtitle: ``,
       price: 10000,
       images: ["exprimidorgris.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Exprimidor Tupperware",
       subtitle: ``,
@@ -225,7 +225,7 @@ export class AppComponent {
       subtitle: `Marca Oster`,
       price: 70000,
       images: ["picatodo.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Portacubiertos",
       subtitle: `Plástico con tapa y espacio adicionales`,
