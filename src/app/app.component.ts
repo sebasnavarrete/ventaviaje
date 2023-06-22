@@ -33,7 +33,7 @@ export class AppComponent {
       subtitle: `Marca: Black and Decker`,
       price: 200000,
       images: ["horno_f.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Espejo con luces",
       subtitle: `Dimensiones: 1m alto x 50cm ancho x 15cm fondo`,
@@ -75,7 +75,7 @@ export class AppComponent {
       subtitle: `SCOTT ASPECT 940/2021 9 VEL - Negro Mate`,
       price: 2000000,
       images: ["bici11.jpeg", "bici12.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Bicicleta OPTIMUS Talla S",
       subtitle: `OPTIMUS AQUILA 29 8 VEL - Negro/Azul/Naranja`,
@@ -121,7 +121,7 @@ export class AppComponent {
     }, {
       title: "Puff redondo",
       subtitle: `Diametro: `,
-      price: 900000,
+      price: 600000,
       images: ["puffred.jpeg"],
       sold: false
     }, {
@@ -183,7 +183,7 @@ export class AppComponent {
       subtitle: ``,
       price: 50000,
       images: ["bolasdecor.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Copas vidrio",
       subtitle: `Tamaño medio`,
@@ -243,7 +243,7 @@ export class AppComponent {
       subtitle: ``,
       price: 15000,
       images: ["servacero.jpeg"],
-      sold: false
+      sold: true
     }, {
       title: "Servilletero marmol",
       subtitle: ``,
